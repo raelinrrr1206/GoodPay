@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GoodPay/static/css/main.4314749f.chunk.css",
+    "main.js": "/GoodPay/static/js/main.0f054211.chunk.js",
+    "main.js.map": "/GoodPay/static/js/main.0f054211.chunk.js.map",
+    "runtime-main.js": "/GoodPay/static/js/runtime-main.e4149f97.js",
+    "runtime-main.js.map": "/GoodPay/static/js/runtime-main.e4149f97.js.map",
+    "static/js/2.7bbb78e7.chunk.js": "/GoodPay/static/js/2.7bbb78e7.chunk.js",
+    "static/js/2.7bbb78e7.chunk.js.map": "/GoodPay/static/js/2.7bbb78e7.chunk.js.map",
+    "index.html": "/GoodPay/index.html",
+    "precache-manifest.48e1553c66d4c86ad133872d395035f8.js": "/GoodPay/precache-manifest.48e1553c66d4c86ad133872d395035f8.js",
+    "service-worker.js": "/GoodPay/service-worker.js",
+    "static/css/main.4314749f.chunk.css.map": "/GoodPay/static/css/main.4314749f.chunk.css.map",
+    "static/js/2.7bbb78e7.chunk.js.LICENSE.txt": "/GoodPay/static/js/2.7bbb78e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4149f97.js",
+    "static/js/2.7bbb78e7.chunk.js",
+    "static/css/main.4314749f.chunk.css",
+    "static/js/main.0f054211.chunk.js"
+  ]
+}
