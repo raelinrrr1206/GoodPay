@@ -3,6 +3,7 @@ $subYellow:#fffbeb;
 $navGrey:#f6f4f7;
 $buttonGrey:#f3f4f8;
 
+@import "reset";
 
 @mixin App-style{
   width: 100%;
@@ -26,6 +27,7 @@ $buttonGrey:#f3f4f8;
 
 .select-line{
   @include App-style;
+  justify-content: flex-start;
 }
 
 .App-Shipping {
@@ -110,6 +112,18 @@ $buttonGrey:#f3f4f8;
     align-items: flex-start;
     justify-content: flex-start;
     }
+
+    .App-info-payment {
+      @include App-style;
+      //background-color:#fffbeb;
+      width: 100%;
+      height: 350px;
+      margin:2vh;
+      border-radius:10px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      }
 
     .Form-border {
     border:  1px solid $mainYellow;
@@ -229,9 +243,9 @@ $buttonGrey:#f3f4f8;
   .button-grey{
     display: flex;
     background-color: $buttonGrey;
-    width: 140px;
+    width: 9.5vw;
     height: 100px;
-    margin: 40px;
+    margin: 40px 6vw;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -262,9 +276,23 @@ $buttonGrey:#f3f4f8;
     font-family:Comfortaa;
     font-weight: 900;
     font-size:18px;
-    margin-left: 20px;
+    //margin-left: 20px;
     margin-top: 20px;
     color:$mainYellow;
+    display: flex;
+    width: 80%;
+  }
+
+  .form-title-payment{
+    font-family:Comfortaa;
+    font-weight: 900;
+    font-size:18px;
+    //margin-left: 20px;
+    margin-top: 20px;
+    color:$mainYellow;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .order-ul{
@@ -362,7 +390,7 @@ $buttonGrey:#f3f4f8;
   }
 
   .line-input{
-    width: 99%;
+    width: 96%;
     height: 25px;
     margin-top:10px;
     display: flex;
@@ -370,11 +398,13 @@ $buttonGrey:#f3f4f8;
     justify-content: flex-start; 
     border-radius: 4px;
     border:rgb(206, 205, 205) 1px solid;
+    padding-left: 1vw;
   }
 
   .line-input-area{
-    width: 97%;
+    width: 96%;
     height: 25px;
+    line-height:25px;
     margin-top:10px;
     display: flex;
     align-items:flex-start;
@@ -382,6 +412,7 @@ $buttonGrey:#f3f4f8;
     border-radius: 4px;
     border:rgb(206, 205, 205) 1px solid;
     resize : none;
+    padding-left: 1vw;
   }
 
   .entire-form{
@@ -389,6 +420,7 @@ $buttonGrey:#f3f4f8;
     margin:2vh auto;
     width: 80%;
     height: 80%;
+    flex-direction: row;
   }
 
   .select-title-left{
@@ -438,15 +470,13 @@ $buttonGrey:#f3f4f8;
   .select-main{
     width: 90%;
     margin:10px 0px 0px 0px;
-
-  
     height: 25px;
- 
     display: flex;
     align-items:center;
     justify-content: flex-start; 
     border-radius: 4px;
     border:rgb(206, 205, 205) 1px solid;
+    padding-left: 0.7vw;
   }
 
 
@@ -604,4 +634,27 @@ $buttonGrey:#f3f4f8;
     text-align: left;
     line-height: 20px;
   }
+
+  .entire-form-payment{
+    margin:3vh auto;
+    width: 100%;
+    height: 80%;
+    flex-direction: row;
+    display: flex;
+  }
   
+  .payment-div{
+    width: 80%;
+    //margin: 0 7vh;
+    margin: 2vh auto;
+  }
+
+  .form-column{
+    width: 100%;
+    //margin-bottom:'20px';
+  }
+
+  option{
+    padding-left: 0;
+    display:flex;
+  }
